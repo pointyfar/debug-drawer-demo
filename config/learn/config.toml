@@ -1,4 +1,4 @@
-baseURL = "/__learn/"
+baseURL = "https://stupefied-hawking-fb6338.netlify.com/__learn/"
 
 theme = [
   "github.com/pointyfar/hugo-debug-drawer", 

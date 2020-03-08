@@ -1,4 +1,4 @@
-baseURL = "/__xmin/"
+baseURL = "https://stupefied-hawking-fb6338.netlify.com/__xmin/"
 theme = [
   "github.com/pointyfar/hugo-debug-drawer", 
   "github.com/yihui/hugo-xmin"
