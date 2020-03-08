@@ -8,5 +8,7 @@ github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308042721-6daba7aac4a4 h1:/qW
 github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308042721-6daba7aac4a4/go.mod h1:wA59J5AvQzjEBGlkV5pwYsc/G+3H5svmtl6751AuVxg=
 github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308073449-22dcc10974b8 h1:4VdA422sxxvaBIyf9DSvl8GuK7G60d2ZHe964qH5hFk=
 github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308073449-22dcc10974b8/go.mod h1:wA59J5AvQzjEBGlkV5pwYsc/G+3H5svmtl6751AuVxg=
+github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308101252-4a415a51b498 h1:7nJzORSxKnDCXXRevvewLucc2nAyG2qpxBjp+X0FdT8=
+github.com/pointyfar/hugo-debug-drawer v0.0.0-20200308101252-4a415a51b498/go.mod h1:wA59J5AvQzjEBGlkV5pwYsc/G+3H5svmtl6751AuVxg=
 github.com/yihui/hugo-xmin v0.0.0-20190816180901-982dfb320e8a h1:o4jOLinrqSYlWmZO6WThxFDRKyBJC6ZB28kH0WYMt3I=
 github.com/yihui/hugo-xmin v0.0.0-20190816180901-982dfb320e8a/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
