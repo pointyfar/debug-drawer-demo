@@ -3,4 +3,46 @@ title: "Debug Drawer Demo"
 date: 2020-03-08T13:04:56+10:00
 ---
 
-Magna ad ullamco dolor cillum ipsum deserunt qui dolore. Officia proident eu excepteur sint commodo minim sit dolore labore cillum adipisicing cupidatat. Ut qui incididunt ipsum ut reprehenderit magna.
+## What is this
+
+`hugo-debug-drawer` is a Hugo Theme Component to help debug your Hugo site templates. 
+
+## Where to find
+
+[Theme Component Source](https://github.com/pointyfar/hugo-debug-drawer)
+
+[Demo Source](https://github.com/pointyfar/debug-drawer-demo)
+
+[Demo Site](https://stupefied-hawking-fb6338.netlify.com/)
+
+## How to use
+
+Install as a [theme component](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme).
+
+Call the `debugdrawer` partial from somewhere in your main theme's layouts.
+
+Optionally, pass configuration object.
+
+```
+{{ $options := dict "debugdrawerpanelheight" "500px" "bugcolor" "#000000" "bugbg" "#00C09B" "hidefromdepth" 5 }}
+
+{{ partial "debugdrawer.html" (dict "context" . "options" $options ) }}
+```
+
+
+### Configuration options
+
+`debugdrawerpanelheight`
+- Specify the panel's height. Default `300px`.
+
+`bugcolor`
+- Specify the foreground color of the bug icon. Default `#FFFFFF`.
+
+`bugbg`
+- Specify the background color of the bug icon. Default `#A62639`.
+
+`hidefromdepth` 
+- Specify at what depth to hide the elements. Default `5`.
+
+`defaultopen`
+- Specify whether the panel is open by default. Default `false`.
