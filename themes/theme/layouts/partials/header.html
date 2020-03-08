@@ -1,0 +1,28 @@
+<section class="hero is-primary is-bold is-medium">
+    <div class="hero-body">
+        <div class="container is-fluid">
+        <h1 class="title">
+            <a href="/" class="has-text-white">
+                {{site.Title}}
+            </a>
+        </h1>
+        <h2 class="subtitle">
+            {{ .Title }}
+        </h2>
+        </div>
+    </div>
+</section>
+<nav class="navbar is-dark">
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            {{ if not site.IsServer }}
+            <a class="navbar-item" href="/__learn/">
+                Switch to Learn Theme
+            </a>
+            <a class="navbar-item" href="/__xmin/">
+                Switch to Xmin Theme
+            </a>
+            {{ end }}
+        </div>
+      </div>
+</nav>

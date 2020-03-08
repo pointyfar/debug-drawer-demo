@@ -1,18 +1,24 @@
 {{ define "main"}}
-<h1>{{.Title}}</h1>
-{{.Pages}}
-<hr>
-{{.Content}}
-<hr>
-Legam hic nescius eu duis, aute fabulas distinguantur. Velit cupidatat 
-do distinguantur. Quorum vidisse adipisicing do se mentitum 
-imitarentur nam ut fore laborum concursionibus nam eu vidisse sed 
-expetendis.
 
-Veniam non officia est cillum, multos qui quibusdam ab malis do in qui 
-transferrem, aute se mandaremus se export. Est fugiat incurreret 
-tractavissent, ingeniis malis laborum iudicem, incididunt elit nescius 
-deserunt, fugiat ita cernantur se nulla. Se anim vidisse 
-instituendarum, quis de quo quae incididunt. Expetendis elit 
-incididunt voluptate eu ad ne ipsum tempor esse.
+<div class="card">
+    <div class="card-content">
+      <div class="content">
+        {{.Content}}
+
+        <hr>
+        <ol>
+            {{ range site.RegularPages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}}</a> <span class="has-text-grey"> {{ with .Section }} &middot; {{.}} {{ end }} &middot; {{.Date | dateFormat "02 Jan 2006"}} </span>
+            </li>
+            {{ end }}
+        </ol>
+
+      </div>
+    </div>
+    
+  </div>
+
+<hr>
+
 {{ end }}

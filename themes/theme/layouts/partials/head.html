@@ -1,0 +1,4 @@
+<title>{{.Title}}</title>
+{{ $bulma := resources.Get "bulma/bulma.sass" | resources.ToCSS }}
+
+<link rel="stylesheet" href="{{ $bulma.Permalink }}">

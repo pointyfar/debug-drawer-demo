@@ -3,12 +3,13 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
-            <h1>
-                Using Default Theme
-            </h1>
-        {{- block "main" . }}{{- end }}
-        </div>
+        <section class="section">
+            <div class="container is-fluid">
+                <div id="content">
+                {{- block "main" . }}{{- end }}
+                </div>
+              </div>
+          </section>
         {{- partial "footer.html" . -}}
     </body>
 </html>
