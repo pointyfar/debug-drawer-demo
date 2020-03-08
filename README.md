@@ -1,8 +1,3 @@
----
-title: "Debug Drawer Demo"
-date: 2020-03-08T13:04:56+10:00
----
-
 ## What is this
 
 `hugo-debug-drawer` is a Hugo Theme Component to help debug your Hugo site templates. 
@@ -55,3 +50,7 @@ See [Demo Source](https://github.com/pointyfar/debug-drawer-demo) and
 
 See `hidefromdepth` at work [here](https://stupefied-hawking-fb6338.netlify.com/about/): open `Page` Params panel.
 
+
+## License
+
+MIT
