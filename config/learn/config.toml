@@ -1,0 +1,35 @@
+theme = [
+  "github.com/pointyfar/hugo-debug-drawer", 
+  "github.com/matcornic/hugo-theme-learn"
+  ]
+
+layoutDir = "layouts-learn"
+
+[module]
+
+  [[module.imports]]
+  path = "github.com/pointyfar/hmd-content"
+  disable = false
+
+    [[module.imports.mounts]]
+    source = "content/looking-glass"
+    target = "content/looking-glass"
+
+    [[module.imports.mounts]]
+    source = "animals"
+    target = "content/animals"
+
+    [[module.imports.mounts]]
+    source = "plants"
+    target = "content/animals"
+
+[params]
+    author = "Meow McCat"
+    info = "i am cat. who are you?"
+    description = "John Doe's personal website"
+
+    showVisitedLinks = false
+
+    disableSearch = true
+
+    themeVariant = "green"
