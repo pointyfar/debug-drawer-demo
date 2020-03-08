@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -26,3 +26,9 @@ theme = [
     source = "plants"
     target = "content/animals"
 
+    [[module.imports]]
+      path = "github.com/jgthms/bulma"
+      disable = false
+      [[module.imports.mounts]]
+        source = "."
+        target = "assets/bulma"
