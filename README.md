@@ -2,6 +2,9 @@
 
 `hugo-debug-drawer` is a Hugo Theme Component to help debug your Hugo site templates. 
 
+![Debug Drawer](/static/videos/debugdrawer03.gif)
+
+
 ## Where to find
 
 [Theme Component Source](https://github.com/pointyfar/hugo-debug-drawer)
