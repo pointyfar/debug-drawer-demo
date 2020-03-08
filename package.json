@@ -1,0 +1,12 @@
+{
+  "name": "debug-demo",
+  "version": "0.0.1",
+  "author": "Pointy <pointyfar@gmail.com>",
+  "license": "MIT",
+  "scripts" : {
+    "hugo" : "hugo",
+    "hugo:build-all": "yarn run hugo --cleanDestinationDir && yarn run hugo:build-learn && yarn run hugo:build-xmin",
+    "hugo:build-learn" : "hugo --environment learn",
+    "hugo:build-xmin" : "hugo --environment xmin"
+  }
+}

@@ -4,6 +4,7 @@ theme = [
   ]
 
 layoutDir = "layouts-learn"
+publishDir = "public/__learn"
 
 [module]
 

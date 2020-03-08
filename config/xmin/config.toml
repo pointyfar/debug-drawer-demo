@@ -4,6 +4,7 @@ theme = [
   ]
 
 layoutDir = "layouts-xmin"
+publishDir = "public/__xmin"
 
 [module]
 
