@@ -1,4 +1,6 @@
 {{ define "main"}}
+{{ .Scratch.Set "debugdrawerlayout" "layouts/_default/single.html" }}
+
 <h1>{{.Title}}</h1>
 <hr>
 {{.Content}}

@@ -27,6 +27,14 @@ Optionally, pass configuration object.
 {{ partial "debugdrawer.html" (dict "context" . "options" $options ) }}
 ```
 
+Add layout information to your template files by including this [`.Scratch`](https://gohugo.io/functions/scratch) variable to your layout files:
+
+```
+{{ .Scratch.Set "debugdrawerlayout" "layouts/index.html" }}
+```
+
+![Debug Drawer](/static/videos/debugdrawer04.gif)
+
 
 ### Configuration options
 

@@ -6,5 +6,5 @@
     </div>
 </footer>
 
-{{ $options := dict "debugdrawerpanelheight" "500px" "bugcolor" "#000000" "bugbg" "#00C09B" "hidefromdepth" 5 }}
+{{ $options := dict "debugdrawerpanelheight" "300px" "bugcolor" "#000000" "bugbg" "#00C09B" "hidefromdepth" 5 "defaultopen" true }}
 {{ partial "debugdrawer.html" (dict "context" . "options" $options) }}

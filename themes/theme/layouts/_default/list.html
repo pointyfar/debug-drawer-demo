@@ -1,7 +1,11 @@
 {{ define "main"}}
-<h1>{{.Title}}</h1>
-<hr>
-{{.Content}}
-<hr>
-{{.Pages}}
+{{ .Scratch.Set "debugdrawerlayout" "layouts/_default/list.html" }}
+
+<ol>
+    {{ range .Pages }}
+    <li>
+        <a href="{{.Permalink}}">{{.Title}}</a> <span class="has-text-grey"> {{ with .Section }} &middot; {{.}} {{ end }} &middot; {{.Date | dateFormat "02 Jan 2006"}} </span>
+    </li>
+    {{ end }}
+</ol>
 {{ end }}
